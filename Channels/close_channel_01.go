@@ -1,6 +1,8 @@
 /*
 CLOSE CHANNELS
 we can close a channel so that no more data can be sent through it
+closing a channel is not a blocking operation.
+when you try to read the data from a closed channel, the zero value of that datatype is returned.
 */
 
 package main
