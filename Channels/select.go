@@ -8,6 +8,12 @@ If one or more case is a non-blocking case, then select will execute any one of 
 
 */
 
+/* 
+USE CASE 
+Above program simulates real world web service where a load balancer gets millions of requests and it has to return a response from one of the services available. 
+Using goroutines, channels and select, we can ask multiple services for a response, and one which responds quickly can be used.
+*/
+
 package main
 
 import "fmt"
