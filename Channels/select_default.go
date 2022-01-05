@@ -6,7 +6,11 @@ Default make the select case always non-blocking.
 If any of the select case has a non-blocking or value readily available, then that will be executed.If not default case will be executed.
 Won have any chance to block that routine and schedule another routine.
 
+Default cases are very useful when we want to avoid deadlock, since it is non-blocking.
+
 */
+
+
 
 package main
 
