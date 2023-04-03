@@ -20,6 +20,8 @@ rather than having to rely on real implementations of the types that implement t
 2) It just provides the method name, input arguements and the return type(if any)
 3) If a type implements the method signature provided by the interface, then the type is said to implement the interface.
 */
+
+// NOTE: You must implement all the method declared in the interface for a type to implement the interface.
 package main
 
 import "fmt"
