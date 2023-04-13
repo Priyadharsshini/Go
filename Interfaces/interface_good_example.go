@@ -29,7 +29,7 @@ func(f File) getData()([]byte, error){
 func(d DataBase) getData()([]byte, error){
 	// Implentation specific to this
 }
-
+// without interface we would have a process data specific to each one of them, thus leading to code duplication and cumbersome code.
 func processData(ds DataSources){
 	// Any common preprocessing required for them all 
 	value , err := ds.getData()
