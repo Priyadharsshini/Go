@@ -1,11 +1,4 @@
-/*
-INTERFACE COMPARISON
-Two interfaces are equal if
-- If both the interfaces are null
-- If both the interfaces point to the same dynmaic type with the same dynamic value
 
-Even if one interface is null, then they are not equal
-*/
 
 package main
 
